@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    margin-left: 100px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 150px;
+}
+#subscribe{
+    background-color: #153c59;
+}
+#login{
+    background-color: #0973a3;
+    width: 70px;
+}
+#free{
+    background-color: #febf27;
+    color: black;
+}
+.parent-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+.left-container{
+    padding: 20px 50px;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    margin: 50px;
+    margin-left: 150px;
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: white;
+}
+.left-container h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Merriweather, serif;
+    font-style: normal;
+}
+.left-container p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 500;
+    color: gray;
+    font-size: 23px;
+    font-family: Merriweather, serif;
+    font-style: normal;
+}
+.logo-container img{
+    padding: 70px;
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
+}
+.right-container{
+    margin-right:150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 30px;
+    width: 500px;
+    height: 250px;
+}
+.btn-container button{
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+.btn-container p{
+    margin: 5px;
+}
+.btn-container span{
+    margin: 20px;
+    color: gray;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0px 10px 15px 10px;
+    width: 470px;
+    height: 130px;
+    background-color: white;
+}
+.text-container img{
+    margin: 20px;
+    width: 45%;
+    height: 45%;
+}
+.text-container .logo{
+    width: 35%;
+    height: 35%;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    padding: 20px 30px;
+    background-color: #f1f1f1;
+    color: #0973a3;
+    margin:  50px 200px;
+    display: flex;
+    position: relative;
+}
+.cards li{
+    list-style: none;
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+.cards button{
+    border-radius: 20px;
+    width: 150px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 50px;
+}
+.card-default{
+    z-index: 1;
+    top: -100px;
+    height: 300px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #153c59;
+    color: white;
+}
+.card-default li{
+    background: url('list.svg') no-repeat;
+}
+.card-default .cd-btn{
+    color: #153c59;
+    background: white;
+}
+.card-default h2,.card h2 {
+    margin: 10px 0px 5px 0px;
+    font-size: 25px;
+}
+.card{
+    padding: 20px 30px;
+    height: 250px;
+    width: 250px;
+}
+.cards ul{
+    margin: 40px 0px;
+}
+.card li{
+    background: url('bullet-blue.png') no-repeat;
+}
+.card button{
+    background: #153c59;
+}
+.cost{
+    font-size: 30px;
+    font-weight: 600;
+}
+.subscriptions{
+        margin: 50px 300px;
+}
+.subscriptions h1{
+    text-align: center;
+}
+.sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.sub1,.sub2{
+    display: flex;
+    background:#f1f1f1 ;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    height: 150px;
+}
+.sub1 p,.sub2 p{
+    margin: 50px 0px 100px 5px;
+    font-size: 23px;
+}
+.sub1 img,.sub2 img{
+    margin-left: 100px;
+}
+.products{
+    margin: 50px 300px;
+}
+.products h1{
+    text-align: center;
+}
+.p-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.p1,.p2,.p3{
+    padding: 30px;
+    margin: 20px;
+}
+.p1 p,.p2 p,.p3 p{
+    padding: 10px;
+    font-size: 17px;
+}
+.p1{
+    background: #E8F4FF;
+}
+.p2{
+    background: #E9E9E9;
+}
+.p3{
+    background: #FFF3E8;
+}
+.subs-benefits{
+    margin: 20px 300px;
+}
+.subs-benefits h2{
+    text-align: center;
+}
+.benefits{
+    display: flex;
+    margin: 50px 100px;
+}
+.option{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.option:hover{
+    border: 2px solid rgba(0, 89, 255, 0.703);
+}
+.faqs{
+    margin: 30px 300px;
+}
+.faqs h2{
+    text-align: center;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.faq img{
+    width: 2%;
+    height: 2%;
+}
+.contact-us{
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 50px 300px;
+    display: flex;
+    border: 1px;
+}
+.contact-us span{
+    border-bottom: 2px solid rgb(33, 33, 226);
+}
+.plans-btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.plans-btn button{
+    padding:20px;
+    width: 250px;
+    background: #153c59;
+    color: white;
+}
+.contact{
+    margin-top: 20px;
+    background: #f1f1f1;
+}
+.contact-container{
+    padding: 20px;
+    margin: 0px 200px;
+}
+.quiz,.email{
+    background: #0973a3;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.quiz-box button{
+    background: #febf27;
+    color: black;
+}
+.quiz{
+    border-radius: 20px;
+    height: 125px;
+}
+.email button{
+    background: #febf27;
+    color: black;
+    border-radius: 0px;
+}
+.email-box{
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+}
+.quiz-container{
+    display: flex;
+}
+.quiz-box{
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.quiz-box p{
+    margin: 20px 50px 20px 10px ;
+}
+.doubts{
+    border-radius: 10px;
+    background: whitesmoke;
+    text-decoration: underline;
+    margin: 30px;
+    font-size: 20px;
+    border: 2px solid #0973a3;
+    padding: 30px;
+    text-align: center;
+}
+.contact-details{
+    background: white;
+    padding: 20px;
+}
+.content{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.address{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.address-1,.address-2{
+    margin: 10px;
+    display: flex;
+}
+.address-1 img,.address-2 img{
+    padding-right: 10px;
+}
+.footer{
+    margin:40px 30px;
+    text-align: center;
+    color: gray;
+}
+.line{
+    text-decoration: underline;
+    padding: 20px 10px;
+}
+.footer p{
+    padding: 10px;
+}
+@media screen and (max-width:480px){
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header{
+        width: 70%;
+        padding: 10px;
+        height: 50px;
+    }
+    .header img{
+        margin: 0px;
+        width: 60%;
+        height: 60%;
+    }
+    .header button{
+        width: 75px;
+        height: 25px;
+        font-weight: 50;
+        font-size: 10px;
+        padding: 5px;
+        margin: 7px 7px;
+    }
+    .left-container{
+        max-width: 80%;
+        padding: 15px;
+        margin: 20px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .left-container h3{
+        font-size: 20px;
+    }
+    .left-container p{
+        font-size: 15px;
+    }
+    .right-container{
+        max-width: 80%;
+        margin: 0px;
+    }
+    .text-container,.btn-container{
+        width: 300px;
+    }
+    .btn-container button{
+        height: 40px;
+    }
+    .logo-container img{
+        width: 50%;
+        height: 50%;
+        padding: 30px;
+    }
+    .cards,.cards ul{
+        margin: 10px 15px 10px 0px;
+    }
+    .cards button{
+        position: relative;
+        margin: 10px 50px 100px 50px;
+    }
+    .cards,.sub-container,.p-container,.benefits,.faq,.contact-us,.quiz-container,.quiz-box,.content{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .subscriptions,.products,.subs-benefits,.faqs,.contact-us,.content,.footer{
+        margin: 20px;
+    }
+    .contact-us span{
+        padding: 10px;
+        border-bottom: none ;
+    }
+    .faq img{
+        display: none;
+    }
+    .doubts{
+        margin: 20px;
+        padding: 20px;
+    }
+    .benefits{
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-container{
+        margin: 0px;
+    }
+    .quiz{
+        height: 250px;
+        padding: 10px;
+    }
+    .quiz button{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .email{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
